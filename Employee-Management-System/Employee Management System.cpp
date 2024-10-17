@@ -1,10 +1,23 @@
 #include<iostream>
 using namespace std;
 #include "workerManager.h"
+#include "worker.h"
+#include"Employee.h"
+#include "manager.h"
+#include "boss.h"
+
+//void test01() {
+//	Worker* worker = NULL;
+//	worker = new Employee(1, "张三", 1);
+//	worker->getDeptName();
+//	worker->showInfo();
+//	delete worker;
+//}
 
 int main() {
-
+	test01();
 	WorkerManager wm;
+
 
 	wm.Show_Menu();
 
@@ -19,6 +32,7 @@ int main() {
 	case 1:	//添加员工
 		break;
 	case 2:	//显示
+		
 		break;
 	case 3:	//删除
 		break;
